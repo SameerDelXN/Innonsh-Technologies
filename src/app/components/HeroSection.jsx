@@ -61,7 +61,7 @@ const HeroSection = () => {
         <p className='text-sm font-medium phone:text-xs'>
           Empowering businesses with scalable, secure, and intelligent digital transformation.
         </p>
-        <div className='flex flex-col phone:flex-row items-center gap-3'>
+        <div className='flex  phone:flex-row items-center gap-3'>
           <button className='p-3 bg-transparent border-2 border-[#8B5CF6] rounded-lg text-[#8B5CF6] text-center w-56 phone:w-40 cursor-pointer'>
             Get Started
           </button>
