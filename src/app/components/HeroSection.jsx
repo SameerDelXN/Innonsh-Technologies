@@ -56,11 +56,11 @@ const HeroSection = () => {
     >
       <div className="flex flex-col items-center justify-center gap-6 text-center px-4">
         <h1 className='text-4xl font-semibold phone:text-2xl'>
-          AI-Powered Software Solutions for the Future
-        </h1>
+        Welcome to Innonsh Technologies        </h1>
         <p className='text-sm font-medium phone:text-xs'>
-          Empowering businesses with scalable, secure, and intelligent digital transformation.
-        </p>
+        Your Trusted Partner in Technology Consulting and Solutions
+
+</p>
         <div className='flex  phone:flex-row items-center gap-3'>
           <button className='p-3 bg-transparent border-2 border-[#8B5CF6] rounded-lg text-[#8B5CF6] text-center w-56 phone:w-40 cursor-pointer'>
             Get Started

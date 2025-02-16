@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Home</Link>
         <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Solutions</Link>
         <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Industries</Link>
-        <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>About Us</Link>
+        <Link href='about-us' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>About Us</Link>
         <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Contact Us</Link>
       </div>
       

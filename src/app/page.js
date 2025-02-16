@@ -6,6 +6,8 @@ import Steps from "./components/Steps";
 import Reviews from "./components/Reviews";
 import Blogs from "./components/Blogs";
 import ContactUs from "./components/ContactUs";
+import Story from "./components/Story";
+import Customer from "./components/Customer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
     <What_We_Offer/>
     <Why_Choose_Us/>
     <Steps/>
+    <Story/>
+    <Customer/>
     <Reviews/>
     <Blogs/>
     <ContactUs/>
