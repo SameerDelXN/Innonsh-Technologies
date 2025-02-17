@@ -52,66 +52,168 @@ const HeroSection = () => {
   return (
     <div
       ref={heroRef}
-      className={`w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] relative overflow-hidden phone:min-h-[75vh]`}
+      className={`
+        w-full min-h-screen 
+        flex flex-col items-center justify-center 
+        bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] 
+        relative overflow-hidden 
+        phone:min-h-[75vh]
+        tablet:min-h-[85vh]
+        laptop:min-h-[90vh]
+        p-4
+      `}
     >
-      <div className="flex flex-col items-center justify-center gap-6 text-center px-4 z-50">
-        <h1 className='text-4xl font-semibold phone:text-2xl'>
-          AI-Powered <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]'>Software Solutions</span> for the Future
+      {/* Main Content */}
+      <div className="
+        flex flex-col items-center justify-center 
+        gap-6 text-center px-4 z-50
+        w-full max-w-6xl mx-auto
+      ">
+        <h1 className='
+          text-4xl font-semibold
+          phone:text-2xl
+          tablet:text-3xl
+          laptop:text-4xl
+          desktopxl:text-5xl
+          desktop3xl:text-6xl
+        '>
+          Welcome to Innonsh Technologies
         </h1>
-        <p className='text-sm font-medium phone:text-xs'>
-          Empowering businesses with scalable, secure, and intelligent digital transformation.
+        <p className='
+          text-sm font-medium
+          phone:text-xs
+          tablet:text-sm
+          laptop:text-base
+          desktopxl:text-lg
+          desktop3xl:text-xl
+          max-w-2xl mx-auto
+        '>
+          Your Trusted Partner in Technology Consulting and Solutions
         </p>
-        <div className='flex  phone:flex-row items-center gap-3'>
-        <button className="p-3 bg-transparent border-2 font-medium rounded-lg text-transparent text-center w-56 phone:w-40 cursor-pointer border-[#B32AFF]  bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] bg-clip-border bg-clip-text">
-  Get Started
-</button>
+        
+        {/* Buttons Container */}
+        <div className='
+          flex items-center gap-3
+          phone:flex-row phone:gap-2
+          tablet:gap-4
+          laptop:gap-6
+        '>
+          {/* Get Started Button */}
+          <button className="
+            p-3 bg-transparent border-2 font-medium rounded-lg 
+            text-transparent text-center
+            border-[#B32AFF] 
+            bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] 
+            bg-clip-border bg-clip-text
+            transition-transform duration-300 hover:scale-105
+            phone:w-40 phone:p-2 phone:text-sm
+            tablet:w-48 tablet:p-3
+            laptop:w-56
+            desktopxl:w-64 desktopxl:text-lg
+            desktop3xl:w-72 desktop3xl:text-xl
+          ">
+            Get Started
+          </button>
 
-
-          <button className="relative p-[2px] rounded-lg w-56 phone:w-40 cursor-pointer bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] hover:bg-black">
-  <div className="p-3 rounded-md bg-gradient-to-r font-medium from-[#B32AFF] to-[#4C24B1] text-white text-center">
-    How It Works
-  </div>
-</button>
-
+          {/* How It Works Button */}
+          <button className="
+            relative p-[2px] rounded-lg 
+            cursor-pointer 
+            bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] 
+            hover:scale-105 transition-transform duration-300
+            phone:w-40
+            tablet:w-48
+            laptop:w-56
+            desktopxl:w-64
+            desktop3xl:w-72
+          ">
+            <div className="
+              p-3 rounded-md bg-gradient-to-r 
+              font-medium from-[#B32AFF] to-[#4C24B1] 
+              text-white text-center
+              phone:p-2 phone:text-sm
+              tablet:p-3
+              desktopxl:text-lg
+              desktop3xl:text-xl
+            ">
+              How It Works
+            </div>
+          </button>
         </div>
       </div>
 
+      {/* Shape 1 */}
       <motion.div
         variants={shapeVariants}
-        initial="animate" // Always animate on phone
-        animate={scrollStep >= 1 ? "animate" : "initial"} // Animate on scroll on larger screens
+        initial="animate"
+        animate={scrollStep >= 1 ? "animate" : "initial"}
         transition="transition"
-        className='absolute w-44 top-0 left-6 phone:left-4 phone:w-32'
+        className='
+          absolute
+          phone:w-32 phone:left-4
+          tablet:w-40 tablet:left-6
+          laptop:w-44 laptop:left-8
+          desktopxl:w-52 desktopxl:left-10
+          desktop3xl:w-64 desktop3xl:left-12
+          top-0
+        '
       >
         <Image src={Shape1} alt='shape1' width={1920} height={1080} sizes="100vw" style={{width: '100%', height: 'auto'}}/>
       </motion.div>
 
+      {/* Shape 2 */}
       <motion.div
         variants={shapeVariants}
-        initial="animate" // Always animate on phone
-        animate={scrollStep >= 2 ? "animate" : "initial"} // Animate on scroll on larger screens
+        initial="animate"
+        animate={scrollStep >= 2 ? "animate" : "initial"}
         transition="transition"
-        className='absolute w-1/2 top-0 left-12 phone:left-8 phone:w-3/4'
+        className='
+          absolute
+          phone:w-3/4 phone:left-8
+          tablet:w-2/3 tablet:left-12
+          laptop:w-1/2 laptop:left-16
+          desktopxl:w-1/2 desktopxl:left-20
+          desktop3xl:w-1/2 desktop3xl:left-24
+          top-0
+        '
       >
         <Image src={Shape2} alt='shape2' width={1920} height={1080} sizes="100vw" style={{width: '100%', height: 'auto'}}/>
       </motion.div>
 
+      {/* Shape 3 */}
       <motion.div
         variants={shapeVariants}
-        initial="animate" // Always animate on phone
-        animate={scrollStep >= 3 ? "animate" : "initial"} // Animate on scroll on larger screens
+        initial="animate"
+        animate={scrollStep >= 3 ? "animate" : "initial"}
         transition="transition"
-        className='absolute w-2/3 -top-10 left-44 phone:left-24 phone:w-full'
+        className='
+          absolute
+          phone:w-full phone:left-24
+          tablet:w-3/4 tablet:left-32
+          laptop:w-2/3 laptop:left-44
+          desktopxl:w-2/3 desktopxl:left-52
+          desktop3xl:w-2/3 desktop3xl:left-64
+          -top-10
+        '
       >
         <Image src={Shape3} alt='shape3' width={1920} height={1080} sizes="100vw" style={{width: '100%', height: 'auto'}}/>
       </motion.div>
 
+      {/* Shape 4 */}
       <motion.div
         variants={shapeVariants}
-        initial="animate" // Always animate on phone
-        animate={scrollStep >= 4 ? "animate" : "initial"} // Animate on scroll on larger screens
+        initial="animate"
+        animate={scrollStep >= 4 ? "animate" : "initial"}
         transition="transition"
-        className='absolute w-1/2 -top-12 left-56 phone:left-32 phone:w-3/4'
+        className='
+          absolute
+          phone:w-3/4 phone:left-32
+          tablet:w-2/3 tablet:left-40
+          laptop:w-1/2 laptop:left-56
+          desktopxl:w-1/2 desktopxl:left-64
+          desktop3xl:w-1/2 desktop3xl:left-72
+          -top-12
+        '
       >
         <Image src={Shape4} alt='shape4' width={1920} height={1080} sizes="100vw" style={{width: '100%', height: 'auto'}}/>
       </motion.div>

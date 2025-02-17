@@ -12,34 +12,13 @@ const Navbar = () => {
       </div>
       
       {/* Navigation Links */}
-      <div className="flex space-x-6 phone:hidden">
-  <Link 
-    href="#" 
-    className="hover:bg-gradient-to-r hover:from-[#B32AFF] hover:to-[#4C24B1] hover:bg-clip-text hover:text-transparent transition-all ease-in-out duration-150">
-    Home
-  </Link>
-  <Link 
-    href="#" 
-    className="hover:bg-gradient-to-r hover:from-[#B32AFF] hover:to-[#4C24B1] hover:bg-clip-text hover:text-transparent transition-all ease-in-out duration-150">
-    Solutions
-  </Link>
-  <Link 
-    href="#" 
-    className="hover:bg-gradient-to-r hover:from-[#B32AFF] hover:to-[#4C24B1] hover:bg-clip-text hover:text-transparent transition-all ease-in-out duration-150">
-    Industries
-  </Link>
-  <Link 
-    href="#" 
-    className="hover:bg-gradient-to-r hover:from-[#B32AFF] hover:to-[#4C24B1] hover:bg-clip-text hover:text-transparent transition-all ease-in-out duration-150">
-    About Us
-  </Link>
-  <Link 
-    href="#" 
-    className="hover:bg-gradient-to-r hover:from-[#B32AFF] hover:to-[#4C24B1] hover:bg-clip-text hover:text-transparent transition-all ease-in-out duration-150">
-    Contact Us
-  </Link>
-</div>
-
+      <div className='flex space-x-6 phone:hidden'>
+        <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Home</Link>
+        <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Solutions</Link>
+        <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Industries</Link>
+        <Link href='about-us' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>About Us</Link>
+        <Link href='#' className='hover:text-[#8B5CF6] transition-all ease-in-out duration-150'>Contact Us</Link>
+      </div>
       
       {/* Schedule a Meet Button */}
       <div className='phone:hidden'>
