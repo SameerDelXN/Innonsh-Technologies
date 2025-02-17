@@ -262,9 +262,9 @@ const What_We_Offer = () => {
             Let's discuss how our services can help you achieve your business goals
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <button className="bg-white text-violet-600 px-12 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
+            <a href="mailto:info@innonsh.com" className="bg-white text-violet-600 px-12 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
               Schedule a Consultation
-            </button>
+            </a>
             <button className="border-2 border-white text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-white/10 transition-all">
               View Case Studies
             </button>

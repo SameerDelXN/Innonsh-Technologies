@@ -15,7 +15,7 @@ const Blogs = () => {
 
       {/* Ensure the container takes full height */}
       <div className='w-full flex-1 flex items-center justify-evenly gap-2 phone:flex-col phone:gap-1'>
-        <div className='w-1/2 h-[700px] bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg phone:w-full phone:h-[450px]'>
+        <div className='w-1/2 h-[700px] bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg phone:w-full phone:h-[600px]'>
           <Image
             src={BlogImg1}
             width={1920}
@@ -26,7 +26,7 @@ const Blogs = () => {
           <h1 className='p-3 font-semibold  text-2xl phone:text-sm'>AI-powered business workflow automation image</h1>
           <p className='p-3 text-lg opacity-50 phone:text-xs'>How AI and machine learning are transforming business operations, reducing manual work, and boosting productivity.</p>
         </div>
-        <div className='w-1/2 h-[700px] flex flex-col items-center gap-1 phone:h-[450px] phone:w-full'>
+        <div className='w-1/2 h-[700px] flex flex-col items-center gap-1 phone:h-[600px] phone:w-full'>
           <div className='w-full h-1/3 bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg p-5 flex items-center gap-3'>
             <Image src={BlogImg2} width={1920} height={1080} className='w-48 h-48 object-cover rounded-lg phone:w-32 phone:h-32'/>
             <div className='w-3/4'>

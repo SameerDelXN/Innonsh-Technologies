@@ -66,7 +66,7 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="
         flex flex-col items-center justify-center 
-        gap-6 text-center px-4 z-50
+        gap-6 text-center px-4 z-40
         w-full max-w-6xl mx-auto
       ">
         <h1 className='
@@ -150,10 +150,11 @@ const HeroSection = () => {
         transition="transition"
         className='
           absolute
+          phone:hidden
           phone:w-32 phone:left-4
           tablet:w-40 tablet:left-6
           laptop:w-44 laptop:left-8
-          desktopxl:w-52 desktopxl:left-10
+          desktopxl:w-52 desktopxl:left-24
           desktop3xl:w-64 desktop3xl:left-12
           top-0
         '
@@ -169,12 +170,13 @@ const HeroSection = () => {
         transition="transition"
         className='
           absolute
+          phone:hidden
           phone:w-3/4 phone:left-8
           tablet:w-2/3 tablet:left-12
           laptop:w-1/2 laptop:left-16
           desktopxl:w-1/2 desktopxl:left-20
           desktop3xl:w-1/2 desktop3xl:left-24
-          top-0
+          -top-10
         '
       >
         <Image src={Shape2} alt='shape2' width={1920} height={1080} sizes="100vw" style={{width: '100%', height: 'auto'}}/>
@@ -188,6 +190,7 @@ const HeroSection = () => {
         transition="transition"
         className='
           absolute
+          phone:hidden
           phone:w-full phone:left-24
           tablet:w-3/4 tablet:left-32
           laptop:w-2/3 laptop:left-44
@@ -207,6 +210,7 @@ const HeroSection = () => {
         transition="transition"
         className='
           absolute
+          phone:hidden
           phone:w-3/4 phone:left-32
           tablet:w-2/3 tablet:left-40
           laptop:w-1/2 laptop:left-56

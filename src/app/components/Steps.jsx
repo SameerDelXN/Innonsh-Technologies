@@ -26,7 +26,7 @@
       <div className='w-full min-h-[70vh] phone:min-h-[100vh] bg-gradient-to-b from-[#E3E9F0] to-[#F5F7FA] p-10  flex flex-col justify-evenly items-start phone:p-3 phone:gap-10 phone:pt-10'>
         {/* Title */}
         <div className=' flex flex-col items-start gap-3'>
-          <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>
+          <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg phone:bg-none phone:text-[#B32AFF]'>
             Seamless Digital Transformation in 3 Simple Steps
           </h1>
           <hr className="w-56 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />

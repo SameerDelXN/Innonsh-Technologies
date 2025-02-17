@@ -66,7 +66,7 @@ const Reviews = () => {
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 640);
+      setIsMobile(window.innerWidth <= 767);
     };
     
     checkMobile();

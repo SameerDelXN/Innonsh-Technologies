@@ -131,8 +131,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm md:text-base opacity-90">
             <p>© {currentYear} Innonsh Technologies. All rights reserved.</p>
             <div className="flex items-center gap-6">
-              <Link href="/privacy" className="hover:underline">Privacy Policy</Link>
-              <Link href="/terms" className="hover:underline">Terms of Service</Link>
+              <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
+              <Link href="/terms-of-services" className="hover:underline">Terms of Service</Link>
             </div>
           </div>
         </div>
