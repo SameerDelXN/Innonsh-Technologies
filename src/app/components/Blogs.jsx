@@ -6,10 +6,11 @@ import BlogImg3 from "../../../public/Blog/blog3Img.png"
 import BlogImg4 from "../../../public/Blog/blog4Img.png"
 const Blogs = () => {
   return (
-    <div className='w-full min-h-[100vh] bg-gradient-to-b from-[#E3E9F0] to-[#F5F7FA] p-10 flex flex-col items-start gap-5 phone:p-3 phone:pt-10'>
+    <div className='w-full min-h-[100vh] bg-gradient-to-b from-[#E3E9F0] to-[#F5F7FA]   p-10 flex flex-col items-start gap-5 phone:p-3 phone:pt-10'>
       <div className='flex flex-col items-start gap-3 '>
-        <h1 className='text-2xl font-medium text-[#8B5CF6] phone:text-lg phone:text-start'>Stay Ahead with Our Insights</h1>
-        <hr className='w-32 h-0.5 bg-[#8B5CF6]' />
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>Stay Ahead with Our Insights</h1>
+        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+
       </div>
 
       {/* Ensure the container takes full height */}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from "../../../public/logo.png"
+import Logo from "../../../public/logo2.png"
 
 const ContactUs = () => {
   return (
@@ -8,8 +8,9 @@ const ContactUs = () => {
       
       {/* Header Section */}
       <div className='flex flex-col items-start gap-3  '>
-        <h1 className='text-2xl font-medium text-[#8B5CF6] phone:text-lg'>Let’s Build the Future Together</h1>
-        <hr className='w-32 h-0.5 bg-[#8B5CF6]' />
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>Let’s Build the Future Together</h1>
+        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+
       </div>
 
       {/* Content Section */}
@@ -23,7 +24,7 @@ const ContactUs = () => {
               width={1920}
               height={1080}
               alt='Logo'
-              className='w-32 h-32 md:w-56 md:h-56 object-contain'
+              className='w-56 h-56  object-cover'
             />
             <h1 className='text-2xl md:text-3xl font-semibold'>Innonsh Technologies</h1>
           </div>
@@ -31,16 +32,24 @@ const ContactUs = () => {
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Name' />
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Email' />
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Message' />
-            <input type='submit' value={"Submit"} className='w-full p-4 md:p-5 bg-[#8B5CF6] text-white rounded-lg cursor-pointer hover:bg-[#7a4bdc] transition' />
+            <input 
+  type="submit" 
+  value="Submit" 
+  className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
+/>
           </form>
         </div>
 
         {/* Subscribe Form */}
-        <div className='w-1/2 h-[300px] bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg p-5 flex flex-col items-start justify-between phone:w-full'>
-          <h1 className='text-lg md:text-xl text-[#8B5CF6]'>Subscribe for Industry Insights</h1>
+        <div className='w-1/2 h-[250px] bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg p-5 flex flex-col items-start justify-between phone:w-full'>
+          <h1 className='text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-sm'>Subscribe for Industry Insights</h1>
           <form className='w-full flex flex-col items-center gap-3'>
             <input type='email' className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Email' />
-            <input type='submit' value={"Subscribe"} className='w-full p-4 md:p-5 bg-[#8B5CF6] text-white rounded-lg cursor-pointer hover:bg-[#7a4bdc] transition' />
+            <input 
+  type="submit" 
+  value="Subscribe" 
+  className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
+/>
           </form>
         </div>
       </div>

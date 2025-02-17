@@ -54,20 +54,25 @@ const HeroSection = () => {
       ref={heroRef}
       className={`w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] relative overflow-hidden phone:min-h-[75vh]`}
     >
-      <div className="flex flex-col items-center justify-center gap-6 text-center px-4">
+      <div className="flex flex-col items-center justify-center gap-6 text-center px-4 z-50">
         <h1 className='text-4xl font-semibold phone:text-2xl'>
-          AI-Powered Software Solutions for the Future
+          AI-Powered <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]'>Software Solutions</span> for the Future
         </h1>
         <p className='text-sm font-medium phone:text-xs'>
           Empowering businesses with scalable, secure, and intelligent digital transformation.
         </p>
         <div className='flex  phone:flex-row items-center gap-3'>
-          <button className='p-3 bg-transparent border-2 border-[#8B5CF6] rounded-lg text-[#8B5CF6] text-center w-56 phone:w-40 cursor-pointer'>
-            Get Started
-          </button>
-          <button className='p-3 bg-[#8B5CF6] rounded-lg border-2 border-[#8B5CF6] text-white text-center w-56 phone:w-40 cursor-pointer hover:bg-transparent hover:border hover:bg-black'>
-            How It Works
-          </button>
+        <button className="p-3 bg-transparent border-2 font-medium rounded-lg text-transparent text-center w-56 phone:w-40 cursor-pointer border-[#B32AFF]  bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] bg-clip-border bg-clip-text">
+  Get Started
+</button>
+
+
+          <button className="relative p-[2px] rounded-lg w-56 phone:w-40 cursor-pointer bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] hover:bg-black">
+  <div className="p-3 rounded-md bg-gradient-to-r font-medium from-[#B32AFF] to-[#4C24B1] text-white text-center">
+    How It Works
+  </div>
+</button>
+
         </div>
       </div>
 

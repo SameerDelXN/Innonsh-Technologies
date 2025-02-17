@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedin, FaFacebook, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#3c2475] p-10 flex flex-col text-white relative'>
+    <div className='w-full bg-[#4C24B1] p-10 flex flex-col text-white relative'>
       {/* Top Section */}
       <div className='flex flex-col md:flex-row items-center md:items-start justify-between w-full gap-10 md:gap-0'>
         
