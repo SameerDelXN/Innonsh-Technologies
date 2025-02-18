@@ -5,7 +5,7 @@ import Logo from "../../../public/logo2.png"
 const ContactUs = () => {
   return (
     <div className='w-full min-h-[100vh] bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 flex flex-col gap-10 phone:p-3  phone:pt-10'>
-      
+
       {/* Header Section */}
       <div className='flex flex-col items-start gap-3  '>
         <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>Let’s Build the Future Together</h1>
@@ -32,11 +32,11 @@ const ContactUs = () => {
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Name' />
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Email' />
             <input className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Message' />
-            <input 
-  type="submit" 
-  value="Submit" 
-  className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
-/>
+            <input
+              type="submit"
+              value="Submit"
+              className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
+            />
           </form>
         </div>
 
@@ -45,11 +45,11 @@ const ContactUs = () => {
           <h1 className='text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-sm'>Subscribe for Industry Insights</h1>
           <form className='w-full flex flex-col items-center gap-3'>
             <input type='email' className='w-full p-4 md:p-5 border border-[#e4e4e4] rounded-lg bg-transparent outline-none text-sm md:text-base' placeholder='Your Email' />
-            <input 
-  type="submit" 
-  value="Subscribe" 
-  className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
-/>
+            <input
+              type="submit"
+              value="Subscribe"
+              className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
+            />
           </form>
         </div>
       </div>

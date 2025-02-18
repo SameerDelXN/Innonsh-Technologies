@@ -76,15 +76,15 @@ const ContactUs = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      content: "+91 8446544495",
+      link: "tel:+91 8446544495",
       details: ["Available 24/7", "Quick Response Time"]
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "contact@innonsh.com",
-      link: "mailto:contact@innonsh.com",
+      content: "info@innonsh.com",
+      link: "mailto:info@innonsh.com",
       details: ["Support Inquiries", "Business Proposals"]
     },
     {
@@ -138,7 +138,7 @@ const ContactUs = () => {
               >
                 <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
                 <div className="p-6">
-                  <div className="text-[#B32AFF] mb-4 transform group-hover:scale-110 transition-transform">
+                  <div className="text-[#B32AFF] mb-4 transform transition-transform">
                     {info.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">

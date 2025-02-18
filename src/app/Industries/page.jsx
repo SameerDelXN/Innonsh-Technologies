@@ -1,12 +1,12 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Building2, 
-  Stethoscope, 
-  Wallet, 
-  ShoppingCart, 
-  GraduationCap, 
+import {
+  Building2,
+  Stethoscope,
+  Wallet,
+  ShoppingCart,
+  GraduationCap,
   Factory,
   Truck,
   Timer,
@@ -107,13 +107,13 @@ const IndustriesPage = () => {
       </div>
 
       {/* Introduction */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="bg-white rounded-xl shadow-lg p-8 mb-16"
       >
         <p className="text-gray-600 text-lg leading-relaxed max-w-3xl">
-          We deliver cutting-edge software solutions across various industries, combining deep domain 
+          We deliver cutting-edge software solutions across various industries, combining deep domain
           expertise with advanced technology to drive digital transformation and business growth.
         </p>
       </motion.div>
@@ -192,9 +192,11 @@ const IndustriesPage = () => {
         <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
           Let's discuss how our industry-specific solutions can drive innovation and growth for your business.
         </p>
-        <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
-          Schedule a Consultation
-        </button>
+        <a href="mailto:info@innonsh.com">
+          <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
+            Schedule a Consultation
+          </button>
+        </a>
       </motion.div>
     </div>
   );

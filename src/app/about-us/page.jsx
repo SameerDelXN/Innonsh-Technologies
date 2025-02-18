@@ -1,12 +1,12 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Target, 
-  Eye, 
-  Award, 
-  Users, 
-  Building, 
+import {
+  Target,
+  Eye,
+  Award,
+  Users,
+  Building,
   Globe,
   ArrowRight,
   Laptop,
@@ -17,7 +17,7 @@ import Image from 'next/image';
 const AboutPage = () => {
   const stats = [
     { number: "10+", label: "Years Experience" },
-    { number: "200+", label: "Projects Delivered" },
+    { number: "500+", label: "Projects Delivered" },
     { number: "50+", label: "Team Members" },
     { number: "15+", label: "Countries Served" }
   ];
@@ -79,14 +79,14 @@ const AboutPage = () => {
       </div>
 
       {/* Introduction */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="bg-white rounded-xl shadow-lg p-8 mb-16"
       >
         <p className="text-gray-600 text-lg leading-relaxed max-w-3xl">
-          At Innonsh Technologies, we're more than just a software development company. 
-          We're innovators, problem-solvers, and technology enthusiasts dedicated to transforming 
+          At Innonsh Technologies, we're more than just a software development company.
+          We're innovators, problem-solvers, and technology enthusiasts dedicated to transforming
           businesses through cutting-edge digital solutions.
         </p>
       </motion.div>
@@ -178,9 +178,11 @@ const AboutPage = () => {
         <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
           Join us in creating innovative solutions that drive business success.
         </p>
-        <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
-          Let's Work Together
-        </button>
+        <a href="mailto:info@innonsh.com">
+          <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
+            Let's Work Together
+          </button>
+        </a>
       </motion.div>
     </div>
   );

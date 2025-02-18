@@ -142,9 +142,11 @@ const SolutionsPage = () => {
           Let's discuss how our solutions can help you achieve your business goals. Our team of experts
           is ready to create the perfect solution for your needs.
         </p>
-        <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
-          Schedule a Consultation
-        </button>
+        <a href="mailto:info@innonsh.com">
+          <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
+            Schedule a Consultation
+          </button>
+        </a>
       </motion.div>
     </div>
   );
