@@ -31,31 +31,31 @@ const Footer = () => {
     {
       title: "Products",
       links: [
-        { text: "Overview", href: "/products" },
-        { text: "Features", href: "/features" },
+        { text: "Overview", href: "/" },
+        { text: "Features", href: "/" },
         { text: "Solutions", href: "/solutions" },
-        { text: "Tutorial", href: "/tutorial" },
-        { text: "Releases", href: "/releases" }
+        { text: "Tutorial", href: "/" },
+        { text: "Releases", href: "/" }
       ]
     },
     {
       title: "Company",
       links: [
-        { text: "About Us", href: "/about" },
-        { text: "Careers", href: "/careers" },
-        { text: "Press", href: "/press" },
-        { text: "News", href: "/news" },
-        { text: "Contact", href: "/contact" }
+        { text: "About Us", href: "/about-us" },
+        { text: "Careers", href: "/" },
+        { text: "Press", href: "/" },
+        { text: "News", href: "/" },
+        { text: "Contact", href: "/contact-us" }
       ]
     },
     {
       title: "Resources",
       links: [
-        { text: "Blog", href: "/blog" },
-        { text: "Newsletter", href: "/newsletter" },
-        { text: "Events", href: "/events" },
-        { text: "Help Center", href: "/help" },
-        { text: "Support", href: "/support" }
+        { text: "Blog", href: "/" },
+        { text: "Newsletter", href: "/" },
+        { text: "Events", href: "/" },
+        { text: "Help Center", href: "/contact-us" },
+        { text: "Support", href: "/contact-us" }
       ]
     }
   ];
