@@ -63,7 +63,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FaInstagram, href: "https://www.instagram.com/innonsh_tech/", label: "Follow us on Instagram" },
     { icon: FaLinkedin, href: "https://www.linkedin.com/company/innonsh-technologies/", label: "Connect with us on LinkedIn" },
-    { icon: FaYoutube, href: "https://youtube.com/innonshtech", label: "Subscribe to our YouTube channel" }
+    { icon: FaYoutube, href: "https://www.youtube.com/@Innonsh", label: "Subscribe to our YouTube channel" }
   ];
 
   return (
