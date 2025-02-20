@@ -148,18 +148,13 @@ const What_We_Offer = () => {
       title: "UI/UX Design",
       icon: <Palette className="w-8 h-8 text-violet-600" />,
       description: "Create engaging user experiences with our design expertise.",
-      features: [
-        "User research",
-        "Interface design",
-        "Prototyping",
-        "Usability testing"
-      ],
+      features: ["User research", "Interface design", "Prototyping", "Usability testing"],
       stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
     },
     {
-      title: "IT Staff Augmentation ",
+      title: "IT Staff Augmentation",
       icon: <Settings className="w-8 h-8 text-violet-600" />,
-      description: "Create engaging user experiences with our design expertise.",
+      description: "Scale your IT team with experienced professionals to meet project demands.",
       features: [
         "Flexibility & Scalability",
         "Cost Efficiency",
@@ -172,7 +167,8 @@ const What_We_Offer = () => {
     {
       title: "Project-Based IT Consulting",
       icon: <Headset className="w-8 h-8 text-violet-600" />,
-      description: "Create engaging user experiences with our design expertise.",
+      description:
+        "Get expert guidance for your IT projects to ensure efficient execution and delivery.",
       features: [
         "Access to Expertise",
         "Cost Efficiency",
@@ -185,7 +181,8 @@ const What_We_Offer = () => {
     {
       title: "Blockchain Development Services",
       icon: <Network className="w-8 h-8 text-violet-600" />,
-      description: "Create engaging user experiences with our design expertise.",
+      description:
+        "Leverage blockchain technology to enhance security, transparency, and automation.",
       features: [
         "Enhanced Security",
         "Transparency",
@@ -197,6 +194,7 @@ const What_We_Offer = () => {
       stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
     }
   ];
+  
 
   return (
     <div className="min-h-screen bg-white overflow-hidden">

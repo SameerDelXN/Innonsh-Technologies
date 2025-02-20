@@ -22,7 +22,7 @@ const ContactUs = () => {
               width={1920}
               height={1080}
               alt='Logo'
-              className='w-full h-72 object-cover'
+              className='w-full h-72 object-cover phone:object-contain'
             />
         
           </div>

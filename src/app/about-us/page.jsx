@@ -17,9 +17,9 @@ import Image from 'next/image';
 const AboutPage = () => {
   const stats = [
     { number: "10+", label: "Years Experience" },
-    { number: "500+", label: "Projects Delivered" },
-    { number: "50+", label: "Team Members" },
-    { number: "15+", label: "Countries Served" }
+    { number: "200+", label: "Projects Delivered" },
+    { number: "20+", label: "Team Members" },
+    { number: "50+", label: "Happy Clients" }
   ];
 
   const values = [
