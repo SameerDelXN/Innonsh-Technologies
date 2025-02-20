@@ -83,7 +83,7 @@ const Footer = () => {
               />
             </Link> */}
             <h1 className="text-3xl md:text-3xl font-semibold">Innonsh Technologies Pvt Ltd.</h1>
-            <p>Innovation Begins with Every Ansh, Shaping a Brighter Future.</p>
+            <p>Innovation Begins with Every Ansh.</p>
             {/* <div className="flex items-center gap-3">
               {socialLinks.map((social, index) => (
                 <SocialIcon key={index} {...social} />
