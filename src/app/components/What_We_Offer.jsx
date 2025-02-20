@@ -68,9 +68,13 @@ import {
   Palette, 
   Database, 
   Users, 
-  ChevronDown 
+  Settings,
+  ChevronDown ,
+  Headset,
+  Network
 } from 'lucide-react';
-
+import { Link } from 'react-scroll';
+import Link1 from 'next/link';
 const What_We_Offer = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -151,6 +155,46 @@ const What_We_Offer = () => {
         "Usability testing"
       ],
       stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
+    },
+    {
+      title: "IT Staff Augmentation ",
+      icon: <Settings className="w-8 h-8 text-violet-600" />,
+      description: "Create engaging user experiences with our design expertise.",
+      features: [
+        "Flexibility & Scalability",
+        "Cost Efficiency",
+        "Access to Specialized Skills",
+        "Faster Time to Market",
+        "Reduced HR Burden"
+      ],
+      stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
+    },
+    {
+      title: "Project-Based IT Consulting",
+      icon: <Headset className="w-8 h-8 text-violet-600" />,
+      description: "Create engaging user experiences with our design expertise.",
+      features: [
+        "Access to Expertise",
+        "Cost Efficiency",
+        "Faster Project Execution",
+        "Reduced Risk",
+        "Scalability"
+      ],
+      stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
+    },
+    {
+      title: "Blockchain Development Services",
+      icon: <Network className="w-8 h-8 text-violet-600" />,
+      description: "Create engaging user experiences with our design expertise.",
+      features: [
+        "Enhanced Security",
+        "Transparency",
+        "Decentralization",
+        "Reduced Risk",
+        "Automation with Smart Contracts",
+        "Improved Traceability"
+      ],
+      stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
     }
   ];
 
@@ -174,12 +218,12 @@ const What_We_Offer = () => {
               Transform your business with cutting-edge technology solutions tailored to your needs
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-violet-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
+              <Link to='services' smooth={true} className="cursor-pointer bg-white text-violet-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
                 Explore Services
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/10 transition-all">
+              </Link>
+              <Link1 href={"/contact-us"} className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/10 transition-all">
                 Contact Us
-              </button>
+              </Link1>
             </div>
           </div>
           
@@ -196,7 +240,7 @@ const What_We_Offer = () => {
           {['Projects Completed', 'Happy Clients', 'Team Experts'].map((stat, index) => (
             <div key={index} className="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 transition-all duration-300">
               <div className="text-4xl font-bold text-violet-600 mb-2">
-                {['500+', '200+', '50+'][index]}
+                {['200+', '50+', '20+'][index]}
               </div>
               <div className="text-gray-600">{stat}</div>
             </div>
@@ -205,7 +249,7 @@ const What_We_Offer = () => {
       </div>
 
       {/* Interactive Services Grid */}
-      <div className="container mx-auto px-4 py-24">
+      <div className="container mx-auto px-4 py-24" name="services">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -239,9 +283,7 @@ const What_We_Offer = () => {
                 ))}
               </ul>
 
-              <button className="w-full bg-violet-50 text-violet-600 py-3 rounded-lg font-semibold group-hover:bg-violet-600 group-hover:text-white transition-all duration-300 flex items-center justify-center">
-                Learn more <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </button>
+             
             </div>
           ))}
         </div>
@@ -265,9 +307,7 @@ const What_We_Offer = () => {
             <a href="mailto:info@innonsh.com" className="bg-white text-violet-600 px-12 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
               Schedule a Consultation
             </a>
-            <button className="border-2 border-white text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-white/10 transition-all">
-              View Case Studies
-            </button>
+            
           </div>
         </div>
       </div>

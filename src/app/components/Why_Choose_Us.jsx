@@ -173,7 +173,7 @@ const WhyChooseUs = () => {
   };
 
   return (
-    <div className="w-full lg:min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] flex flex-col items-start relative p-2 sm:p-4 md:p-6 lg:p-10">
+    <div name="work" className="w-full lg:min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] flex flex-col items-start relative p-2 sm:p-4 md:p-6 lg:p-10">
       {/* Title Section */}
       <div className="flex flex-col items-start gap-3 w-full">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] max-w-3xl">

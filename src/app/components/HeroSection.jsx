@@ -6,7 +6,7 @@ import Shape1 from "../../../public/Shapes/HomeShape1.png";
 import Shape2 from "../../../public/Shapes/HomeShape2.png";
 import Shape3 from "../../../public/Shapes/HomeShape3.png";
 import Shape4 from "../../../public/Shapes/HomeShape4.png";
-
+import { Link } from 'react-scroll';
 const HeroSection = () => {
   const [scrollStep, setScrollStep] = useState(0);
   const [animationsComplete, setAnimationsComplete] = useState(false);
@@ -99,7 +99,8 @@ const HeroSection = () => {
           laptop:gap-6
         '>
           {/* Get Started Button */}
-          <button className="
+          <Link to='services' smooth={true} className="
+          cursor-pointer
             p-3 bg-transparent border-2 font-medium rounded-lg 
             text-transparent text-center
             border-[#B32AFF] 
@@ -113,11 +114,11 @@ const HeroSection = () => {
             desktop3xl:w-72 desktop3xl:text-xl
           ">
             Get Started
-          </button>
+          </Link>
 
           {/* How It Works Button */}
-          <button className="
-            relative p-[2px] rounded-lg 
+          <Link to='work' smooth={true}  className="
+            relative p-[2px] rounded-lg cursor-pointer
             cursor-pointer 
             bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] 
             hover:scale-105 transition-transform duration-300
@@ -138,7 +139,7 @@ const HeroSection = () => {
             ">
               How It Works
             </div>
-          </button>
+          </Link>
         </div>
       </div>
 

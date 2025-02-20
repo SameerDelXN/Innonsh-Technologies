@@ -20,16 +20,24 @@ const Navbar = () => {
       {/* Logo and Name */}
       <Link href="/" className="flex items-center space-x-2 gap-2">
         <Image
-          src="/logo.png"
+          src="/logo-SVG.svg"
           alt="Innonsh Technologies"
           className="w-12 h-12"
-          width={1920}
-          height={1080}
+          width={48}
+          height={48}
         />
-        <span className="text-lg font-bold text-[#011630] flex flex-col items-start leading-5">
-          <span>Innonsh</span>
-          <span>Technologies</span>
-        </span>
+      <div className="flex flex-col items-start gap-1">
+  <span className="text-lg font-bold text-[#011630] flex flex-col items-start leading-5 gap-1">
+    <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">Innonsh</span>
+    <span>Technologies</span>
+  </span>
+  {/* <span className="text-sm">
+    Innovation Begins with Every 
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Ansh</span>, Shaping a Brighter 
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Future</span>.
+  </span> */}
+</div>
+
       </Link>
 
       {/* Navigation Links (Hidden on phone) */}
@@ -70,7 +78,7 @@ const Navbar = () => {
       <div className="phone:hidden">
         <a
           href="mailto:info@innonsh.com"
-          className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white transition-all ease-in-out duration-300 border border-[#8B5CF6] px-4 py-2 rounded-lg font-medium hover:bg-transparent hover:border-[#8B5CF6] hover:text-[#8B5CF6]"
+          className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white transition-all ease-in-out duration-300 border border-none  px-4 py-3 rounded-lg font-medium hover:bg-transparent hover:border-[#8B5CF6] hover:text-[#8B5CF6]"
         >
           Schedule a Meet
         </a>
@@ -105,13 +113,23 @@ const Navbar = () => {
               onClick={() => setMenuOpen(false)}
             >
               <Image
-                src="/logo.png"
+                src="/logo-SVG.svg"
                 alt="Innonsh Technologies"
                 className="w-12 h-12"
-                width={1920}
-                height={1080}
+                width={48}
+                height={48}
               />
-              <span className="text-lg font-bold text-[#011630]">Innonsh</span>
+             <div className="flex flex-col items-start gap-1">
+  <span className="text-lg font-bold text-[#011630] flex flex-col items-start leading-5 gap-1">
+    <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">Innonsh</span>
+    <span>Technologies</span>
+  </span>
+  {/* <span className="text-sm">
+    Innovation Begins with Every 
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Ansh</span>, Shaping a Brighter 
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Future</span>.
+  </span> */}
+</div>
             </Link>
 
             {/* Navigation Links */}

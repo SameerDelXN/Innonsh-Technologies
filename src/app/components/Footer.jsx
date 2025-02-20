@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between w-full gap-10 md:gap-16">
           {/* Logo & Social Links */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <Link href="/" className="inline-block">
+            {/* <Link href="/" className="inline-block">
               <Image 
                 src={Logo} 
                 width={128}
@@ -82,13 +82,14 @@ const Footer = () => {
                 alt="Innonsh Technologies Logo"
                 className="w-24 h-24 md:w-32 md:h-32"
               />
-            </Link>
-            <h1 className="text-xl md:text-2xl font-semibold">Innonsh Technologies</h1>
-            <div className="flex items-center gap-3">
+            </Link> */}
+            <h1 className="text-3xl md:text-3xl font-semibold">Innonsh Technologies Pvt Ltd.</h1>
+            <p>Innovation Begins with Every Ansh, Shaping a Brighter Future.</p>
+            {/* <div className="flex items-center gap-3">
               {socialLinks.map((social, index) => (
                 <SocialIcon key={index} {...social} />
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Links Section */}
@@ -107,7 +108,7 @@ const Footer = () => {
         </div>
 
         {/* Get in Touch Section */}
-        <div className="w-full text-center mt-12 mb-12">
+        <div className="w-full text-center mt-12 mb-12 flex flex-col items-center gap-5">
           <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
           <p className="max-w-2xl mx-auto text-sm md:text-base opacity-90 mb-6">
             Let's work together to build innovative solutions and drive your business forward. 
@@ -124,12 +125,17 @@ const Footer = () => {
               🌐 innonsh.com
             </a>
           </div>
+          <div className="flex items-center gap-3 justify-center">
+              {socialLinks.map((social, index) => (
+                <SocialIcon key={index} {...social} />
+              ))}
+            </div>
         </div>
 
         {/* Bottom Section */}
         <div className="relative pt-8 mt-8 border-t border-white/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm md:text-base opacity-90">
-            <p>© {currentYear} Innonsh Technologies. All rights reserved.</p>
+            <p>© {currentYear} Innonsh Technologies Pvt Ltd.. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
               <Link href="/terms-of-services" className="hover:underline">Terms of Service</Link>
