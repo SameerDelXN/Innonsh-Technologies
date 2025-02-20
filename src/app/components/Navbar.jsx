@@ -16,27 +16,28 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-auto p-5 flex items-center justify-between bg-[#F5F7FA] relative">
+    <div className="w-full h-auto px-5 py-2 flex items-center justify-between bg-[#F5F7FA] relative">
       {/* Logo and Name */}
-      <Link href="/" className="flex items-center space-x-2 gap-2">
+      <Link href="/" className="flex items-center space-x-2 gap-2 ">
         <Image
           src="/logo-SVG.svg"
           alt="Innonsh Technologies"
-          className="w-12 h-12"
-          width={48}
-          height={48}
+          className="w-52 h-24 phone:w-32 phone:h-16 "
+          width={1920}
+          height={1080}
+
         />
-      <div className="flex flex-col items-start gap-1">
+      {/* <div className="flex flex-col items-start gap-1">
   <span className="text-lg font-bold text-[#011630] flex flex-col items-start leading-5 gap-1">
     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">Innonsh</span>
     <span>Technologies</span>
-  </span>
+  </span> */}
   {/* <span className="text-sm">
     Innovation Begins with Every 
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Ansh</span>, Shaping a Brighter 
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Future</span>.
   </span> */}
-</div>
+{/* </div> */}
 
       </Link>
 

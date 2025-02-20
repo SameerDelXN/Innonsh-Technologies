@@ -90,7 +90,7 @@ const ContactUs = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Address",
-      content: "123 Innovation Street, Tech City, TC 12345",
+      content: "208, Nirmal Mall, Ravet Pune 412101",
       link: "https://maps.google.com",
       details: ["Headquarters", "Visit by Appointment"]
     }

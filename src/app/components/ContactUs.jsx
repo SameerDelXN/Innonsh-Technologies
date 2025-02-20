@@ -18,11 +18,11 @@ const ContactUs = () => {
         <div className='w-1/2 h-[700px] bg-white bg-opacity-40 border border-[#e4e4e4] rounded-lg p-5 flex flex-col items-center justify-between phone:w-full'>
           <div className='flex flex-col items-center justify-center gap-2 '>
             <Image
-              src="/logo-2-SVG.svg"
+              src="/logo-SVG.svg"
               width={1920}
               height={1080}
               alt='Logo'
-              className='w-full h-72 object-cover phone:object-contain'
+              className='w-full h-3/4 object-contain'
             />
         
           </div>

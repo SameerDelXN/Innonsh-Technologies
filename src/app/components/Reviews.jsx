@@ -113,7 +113,7 @@ const Reviews = () => {
     : testimonials.slice(page * 3, (page * 3) + 3);
 
   return (
-    <div className='w-full min-h-[87vh] bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 flex flex-col justify-evenly gap-10 phone:p-3 phone:gap-10 phone:pt-10'>
+    <div className='w-full min-h-[70vh] bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 flex flex-col justify-evenly gap-10 phone:p-3 phone:gap-10 phone:pt-10'>
       {/* Header Section */}
       <div className='flex flex-col items-start gap-3'>
         <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>

@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="../../public/favicon.ico" />
+        <link rel="icon" href="../../public/favicon-SVG.svg" />
       </Head>
       <body
         className={` ${montserrat.variable} antialiased overflow-y-auto scrollbar-thin scrollbar-thumb-[#8B5CF6] scrollbar-track-transparent`}

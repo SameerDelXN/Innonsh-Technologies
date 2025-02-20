@@ -61,9 +61,8 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FaInstagram, href: "https://instagram.com/innonshtech", label: "Follow us on Instagram" },
-    { icon: FaFacebook, href: "https://facebook.com/innonshtech", label: "Like us on Facebook" },
-    { icon: FaLinkedin, href: "https://linkedin.com/company/innonshtech", label: "Connect with us on LinkedIn" },
+    { icon: FaInstagram, href: "https://www.instagram.com/innonsh_tech/", label: "Follow us on Instagram" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/company/innonsh-technologies/", label: "Connect with us on LinkedIn" },
     { icon: FaYoutube, href: "https://youtube.com/innonshtech", label: "Subscribe to our YouTube channel" }
   ];
 
@@ -135,7 +134,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="relative pt-8 mt-8 border-t border-white/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm md:text-base opacity-90">
-            <p>© {currentYear} Innonsh Technologies Pvt Ltd.. All rights reserved.</p>
+            <p>© {currentYear} Innonsh Technologies Pvt Ltd. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
               <Link href="/terms-of-services" className="hover:underline">Terms of Service</Link>
