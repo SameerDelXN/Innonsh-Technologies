@@ -86,7 +86,7 @@ const What_We_Offer = () => {
   const services = [
     {
       title: "Custom Software Development",
-      icon: <Code className="w-8 h-8 text-violet-600" />,
+      icon: <Code className="w-8 h-8 text-[#EE4E94]" />,
       description: "We design and develop custom software tailored to your business needs.",
       features: [
         "Business process automation",
@@ -98,7 +98,7 @@ const What_We_Offer = () => {
     },
     {
       title: "Web & Mobile Development",
-      icon: <Server className="w-8 h-8 text-violet-600" />,
+      icon: <Server className="w-8 h-8 text-[#EE4E94]" />,
       description: "Creating responsive, user-friendly applications for web and mobile platforms.",
       features: [
         "Full-stack web development",
@@ -110,7 +110,7 @@ const What_We_Offer = () => {
     },
     {
       title: "Cloud Solutions",
-      icon: <Cloud className="w-8 h-8 text-violet-600" />,
+      icon: <Cloud className="w-8 h-8 text-[#EE4E94]" />,
       description: "Harness the power of cloud computing with our comprehensive solutions.",
       features: [
         "Cloud migration",
@@ -122,7 +122,7 @@ const What_We_Offer = () => {
     },
     {
       title: "AI & Data Analytics",
-      icon: <Brain className="w-8 h-8 text-violet-600" />,
+      icon: <Brain className="w-8 h-8 text-[#EE4E94]" />,
       description: "Unlock insights with AI-powered analytics and machine learning solutions.",
       features: [
         "Machine learning",
@@ -134,7 +134,7 @@ const What_We_Offer = () => {
     },
     {
       title: "Cybersecurity",
-      icon: <Shield className="w-8 h-8 text-violet-600" />,
+      icon: <Shield className="w-8 h-8 text-[#EE4E94]" />,
       description: "Protect your business with comprehensive security solutions.",
       features: [
         "Security assessment",
@@ -146,14 +146,14 @@ const What_We_Offer = () => {
     },
     {
       title: "UI/UX Design",
-      icon: <Palette className="w-8 h-8 text-violet-600" />,
+      icon: <Palette className="w-8 h-8 text-[#EE4E94]" />,
       description: "Create engaging user experiences with our design expertise.",
       features: ["User research", "Interface design", "Prototyping", "Usability testing"],
       stats: { projects: "250+", clients: "160+", satisfaction: "97%" }
     },
     {
       title: "IT Staff Augmentation",
-      icon: <Settings className="w-8 h-8 text-violet-600" />,
+      icon: <Settings className="w-8 h-8 text-[#EE4E94]" />,
       description: "Scale your IT team with experienced professionals to meet project demands.",
       features: [
         "Flexibility & Scalability",
@@ -166,7 +166,7 @@ const What_We_Offer = () => {
     },
     {
       title: "Project-Based IT Consulting",
-      icon: <Headset className="w-8 h-8 text-violet-600" />,
+      icon: <Headset className="w-8 h-8 text-[#EE4E94]" />,
       description:
         "Get expert guidance for your IT projects to ensure efficient execution and delivery.",
       features: [
@@ -180,7 +180,7 @@ const What_We_Offer = () => {
     },
     {
       title: "Blockchain Development Services",
-      icon: <Network className="w-8 h-8 text-violet-600" />,
+      icon: <Network className="w-8 h-8 text-[#EE4E94]" />,
       description:
         "Leverage blockchain technology to enhance security, transparency, and automation.",
       features: [
@@ -199,7 +199,7 @@ const What_We_Offer = () => {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
       {/* Animated Hero Section */}
-      <div className="relative bg-gradient-to-r from-violet-600 to-violet-800 text-white">
+      <div className="relative bg-gradient-to-r from-[#924CE8 ] to-[violet-800] text-white">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-[url('/api/placeholder/1920/1080')] opacity-10"></div>
           {/* Animated gradient overlay */}
@@ -216,7 +216,7 @@ const What_We_Offer = () => {
               Transform your business with cutting-edge technology solutions tailored to your needs
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to='services' smooth={true} className="cursor-pointer bg-white text-violet-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
+              <Link to='services' smooth={true} className="cursor-pointer bg-white text-[#924CE8] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
                 Explore Services
               </Link>
               <Link1 href={"/contact-us"} className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/10 transition-all">
@@ -237,7 +237,7 @@ const What_We_Offer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {['Projects Completed', 'Happy Clients', 'Team Experts'].map((stat, index) => (
             <div key={index} className="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 transition-all duration-300">
-              <div className="text-4xl font-bold text-violet-600 mb-2">
+              <div className="text-4xl font-bold text-[#924CE8] mb-2">
                 {['200+', '50+', '20+'][index]}
               </div>
               <div className="text-gray-600">{stat}</div>
@@ -259,13 +259,13 @@ const What_We_Offer = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="group bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-violet-100 hover:border-violet-300"
+              className="group bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-violet-100 hover:border-[#EE4E94]"
             >
               <div className="flex items-center mb-6">
-                <div className="p-3 bg-violet-100 rounded-lg group-hover:bg-violet-200 transition-colors">
+                <div className="p-3 bg-[#ee4e9348] rounded-lg group-hover:bg-[#ee4e9348] transition-colors">
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-semibold ml-4 text-gray-800 group-hover:text-violet-600 transition-colors">
+                <h3 className="text-xl font-semibold ml-4 text-gray-800 group-hover:text-[#EE4E94] transition-colors">
                   {service.title}
                 </h3>
               </div>
@@ -275,7 +275,7 @@ const What_We_Offer = () => {
               <ul className="space-y-3 mb-6">
                 {service.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start group/item">
-                    <CheckCircle className="w-5 h-5 text-violet-600 mr-2 mt-1 flex-shrink-0 group-hover/item:scale-110 transition-transform" />
+                    <CheckCircle className="w-5 h-5 text-[#EE4E94] mr-2 mt-1 flex-shrink-0 group-hover/item:scale-110 transition-transform" />
                     <span className="text-gray-700 group-hover/item:text-gray-900 transition-colors">{feature}</span>
                   </li>
                 ))}
@@ -302,7 +302,7 @@ const What_We_Offer = () => {
             Let's discuss how our services can help you achieve your business goals
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <a href="mailto:info@innonsh.com" className="bg-white text-violet-600 px-12 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
+            <a href="mailto:info@innonsh.com" className="bg-white text-[#924CE8] px-12 py-4 rounded-lg text-lg font-semibold hover:bg-violet-100 transition-all transform hover:scale-105 shadow-lg">
               Schedule a Consultation
             </a>
             

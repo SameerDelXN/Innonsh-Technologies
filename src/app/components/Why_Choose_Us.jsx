@@ -176,10 +176,10 @@ const WhyChooseUs = () => {
     <div name="work" className="w-full laptop:min-h-[120vh] desktopxl:min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] flex flex-col items-start relative p-2 sm:p-4 md:p-6 lg:p-10">
       {/* Title Section */}
       <div className="flex flex-col items-start gap-3 w-full">
-        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] max-w-3xl">
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] max-w-3xl">
           Why Businesses Trust Innonsh for Digital Innovation?
         </h1>
-        <div className="w-36 sm:w-48 md:w-72 h-1 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full" />
+        <div className="w-36 sm:w-48 md:w-72 h-1 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full" />
       </div>
 
       {/* Cards Layout */}
@@ -197,11 +197,11 @@ const WhyChooseUs = () => {
               y: -5
             }}
           >
-            <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
+            <div className="h-1 w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8]" />
             <div className="p-3 sm:p-4">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-2xl">{card.icon}</span>
-                <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] bg-clip-text text-transparent">
+                <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold bg-gradient-to-r from-[#EE4E94] to-[#924CE8] bg-clip-text text-transparent">
                   {card.title}
                 </h3>
               </div>

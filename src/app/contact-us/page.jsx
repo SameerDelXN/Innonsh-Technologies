@@ -100,10 +100,10 @@ const ContactUs = () => {
     <div className="min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 phone:p-4">
       {/* Header Section */}
       <div className="flex flex-col items-start gap-3 mb-16">
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-xl">
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-xl">
           Get in Touch
         </h1>
-        <div className="w-72 h-1 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full" />
+        <div className="w-72 h-1 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full" />
       </div>
 
       {/* Introduction */}
@@ -136,19 +136,19 @@ const ContactUs = () => {
                   boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
                 }}
               >
-                <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
+                <div className="h-1 w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8]" />
                 <div className="p-6">
-                  <div className="text-[#B32AFF] mb-4 transform transition-transform">
+                  <div className="text-[#EE4E94] mb-4 transform transition-transform">
                     {info.icon}
                   </div>
-                  <h3 className="text-xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">
+                  <h3 className="text-xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">
                     {info.title}
                   </h3>
                   <p className="text-gray-600 mb-4">{info.content}</p>
                   <ul className="space-y-2">
                     {info.details.map((detail, i) => (
                       <li key={i} className="flex items-center gap-2 text-gray-600">
-                        <ArrowRight className="w-4 h-4 text-[#B32AFF]" />
+                        <ArrowRight className="w-4 h-4 text-[#EE4E94]" />
                         {detail}
                       </li>
                     ))}
@@ -165,7 +165,7 @@ const ContactUs = () => {
           animate={{ opacity: 1, x: 0 }}
           className="bg-white rounded-xl shadow-lg overflow-hidden"
         >
-          <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
+          <div className="h-1 w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8]" />
           <div className="p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -178,7 +178,7 @@ const ContactUs = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#B32AFF] focus:border-transparent ${
+                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 outline-none focus:ring-[#EE4E94] focus:border-transparent ${
                     errors.name ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -195,7 +195,7 @@ const ContactUs = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#B32AFF] focus:border-transparent ${
+                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 outline-none focus:ring-[#EE4E94] focus:border-transparent ${
                     errors.email ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -212,7 +212,7 @@ const ContactUs = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#B32AFF] focus:border-transparent ${
+                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 outline-none focus:ring-[#EE4E94] focus:border-transparent ${
                     errors.subject ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -229,7 +229,7 @@ const ContactUs = () => {
                   rows={4}
                   value={formData.message}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#B32AFF] focus:border-transparent ${
+                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 outline-none focus:ring-[#EE4E94] focus:border-transparent ${
                     errors.message ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -241,7 +241,7 @@ const ContactUs = () => {
                 disabled={isSubmitting}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
               >
                 <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
                 <Send className="w-4 h-4" />

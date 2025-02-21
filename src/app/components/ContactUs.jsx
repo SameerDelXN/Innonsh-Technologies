@@ -7,8 +7,8 @@ const ContactUs = () => {
 
       {/* Header Section */}
       <div className='flex flex-col items-start gap-3'>
-        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>Let’s Build the Future Together</h1>
-        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-lg'>Let’s Build the Future Together</h1>
+        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] border-0 rounded" />
       </div>
 
       {/* Content Section */}
@@ -33,7 +33,7 @@ const ContactUs = () => {
             <input
               type="submit"
               value="Submit"
-              className="w-full p-4 md:p-5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white rounded-lg cursor-pointer hover:from-[#7a4bdc] hover:to-[#6539b3] transition"
+              className="w-full p-4 md:p-5 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] text-white rounded-lg cursor-pointer hover:from-[#ee4e93c0] hover:to-[#924ce8af] transition"
             />
           </form>
         </div>

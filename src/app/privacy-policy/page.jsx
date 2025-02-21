@@ -52,10 +52,10 @@ const PrivacyPolicy = () => {
     <div className="min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 phone:p-4">
       {/* Header Section */}
       <div className="flex flex-col items-start gap-3 mb-16">
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-xl">
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-xl">
           Privacy Policy & Data Protection
         </h1>
-        <div className="w-72 h-1 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full" />
+        <div className="w-72 h-1 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full" />
       </div>
 
       {/* Introduction Card */}
@@ -65,8 +65,8 @@ const PrivacyPolicy = () => {
         className="bg-white rounded-xl shadow-lg p-6 mb-10"
       >
         <div className="flex items-center gap-4 mb-4">
-          <Shield className="w-8 h-8 text-[#B32AFF]" />
-          <h2 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">
+          <Shield className="w-8 h-8 text-[#EE4E94]" />
+          <h2 className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">
             Our Commitment to Your Privacy
           </h2>
         </div>
@@ -94,14 +94,14 @@ const PrivacyPolicy = () => {
               boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
             }}
           >
-            <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
+            <div className="h-1 w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8]" />
             <button
               onClick={() => setOpenSection(openSection === index ? null : index)}
               className="w-full px-6 py-4 flex items-center justify-between"
             >
               <div className="flex items-center gap-4">
-                <div className="text-[#B32AFF]">{section.icon}</div>
-                <h3 className="text-xl phone:text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">
+                <div className="text-[#EE4E94]">{section.icon}</div>
+                <h3 className="text-xl phone:text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">
                   {section.title}
                 </h3>
               </div>
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
                 animate={{ rotate: openSection === index ? 180 : 0 }}
                 transition={{ duration: 0.3 }}
               >
-                <svg className="w-6 h-6 text-[#B32AFF]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-6 h-6 text-[#EE4E94]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </motion.div>

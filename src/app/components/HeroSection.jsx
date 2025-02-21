@@ -103,8 +103,8 @@ const HeroSection = () => {
           cursor-pointer
             p-3 bg-transparent border-2 font-medium rounded-lg 
             text-transparent text-center
-            border-[#B32AFF] 
-            bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] 
+            border-[#EE4E94] 
+            bg-gradient-to-r from-[#EE4E94] to-[#924CE8] 
             bg-clip-border bg-clip-text
             transition-transform duration-300 hover:scale-105
             phone:w-40 phone:p-2 phone:text-sm
@@ -120,7 +120,7 @@ const HeroSection = () => {
           <Link to='work' smooth={true}  className="
             relative p-[2px] rounded-lg cursor-pointer
             cursor-pointer 
-            bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] 
+            bg-gradient-to-r from-[#EE4E94] to-[#924CE8] 
             hover:scale-105 transition-transform duration-300
             phone:w-40
             tablet:w-48
@@ -130,7 +130,7 @@ const HeroSection = () => {
           ">
             <div className="
               p-3 rounded-md bg-gradient-to-r 
-              font-medium from-[#B32AFF] to-[#4C24B1] 
+              font-medium from-[#EE4E94] to-[#924CE8] 
               text-white text-center
               phone:p-2 phone:text-sm
               tablet:p-3

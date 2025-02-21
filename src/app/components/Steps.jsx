@@ -26,10 +26,10 @@ const Steps = () => {
     <div className='w-full min-h-[70vh] phone:min-h-[100vh] bg-gradient-to-b from-[#E3E9F0] to-[#F5F7FA] p-10  flex flex-col justify-evenly items-start phone:p-3 phone:gap-10 phone:pt-3'>
       {/* Title */}
       <div className=' flex flex-col items-start gap-3'>
-        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg phone:bg-none phone:text-[#B32AFF] desktopxl:mt-16 desktop3xl:mt-16'>
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-lg phone:bg-none phone:text-[#B32AFF] desktopxl:mt-16 desktop3xl:mt-16'>
           Seamless Digital Transformation in 3 Simple Steps
         </h1>
-        <hr className="w-56 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+        <hr className="w-56 h-0.5 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] border-0 rounded" />
 
       </div>
 
@@ -38,7 +38,7 @@ const Steps = () => {
         {stepsData.map((step, index) => (
           <div key={index} className='flex flex-col items-center text-center'>
             <div className='relative'>
-              <div className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold text-white z-10 relative">
+              <div className="bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold text-white z-10 relative">
                 {step.number}
               </div>
 

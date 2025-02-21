@@ -8,8 +8,8 @@ const Blogs = () => {
   return (
     <div className='w-full min-h-[100vh] bg-gradient-to-b from-[#E3E9F0] to-[#F5F7FA]   p-10 flex flex-col items-start gap-5 phone:p-3 phone:pt-10'>
       <div className='flex flex-col items-start gap-3 '>
-        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>Stay Ahead with Our Insights</h1>
-        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-lg'>Stay Ahead with Our Insights</h1>
+        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] border-0 rounded" />
 
       </div>
 

@@ -116,10 +116,10 @@ const Reviews = () => {
     <div className='w-full min-h-[70vh] bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 flex flex-col justify-evenly gap-10 phone:p-3 phone:gap-10 phone:pt-10'>
       {/* Header Section */}
       <div className='flex flex-col items-start gap-3'>
-        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-lg'>
+        <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-lg'>
           Helping Businesses Scale Faster & Smarter
         </h1>
-        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] border-0 rounded" />
+        <hr className="w-32 h-0.5 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] border-0 rounded" />
       </div>
 
       {/* Carousel Container */}
@@ -143,7 +143,7 @@ const Reviews = () => {
               >
                 <div className='flex flex-col gap-4'>
                   <div className='flex items-center gap-3'>
-                    <div className='w-12 h-12 rounded-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] flex items-center justify-center text-white text-xl'>
+                    <div className='w-12 h-12 rounded-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8] flex items-center justify-center text-white text-xl'>
                       {testimonial.icon === 'man' ? '👨' : '👩'}
                     </div>
                     <div>
@@ -187,7 +187,7 @@ const Reviews = () => {
               disabled={isAnimating}
               className={`transition-all duration-300 ${
                 page === index 
-                  ? 'w-8 h-2 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full' 
+                  ? 'w-8 h-2 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full' 
                   : 'w-2 h-2 bg-gray-300 rounded-full'
               }`}
             />

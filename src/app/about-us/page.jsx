@@ -72,10 +72,10 @@ const AboutPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 phone:p-4">
       {/* Header Section */}
       <div className="flex flex-col items-start gap-3 mb-16">
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] phone:text-xl">
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] phone:text-xl">
           About Innonsh Technologies
         </h1>
-        <div className="w-72 h-1 bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] rounded-full" />
+        <div className="w-72 h-1 bg-gradient-to-r from-[#EE4E94] to-[#924CE8] rounded-full" />
       </div>
 
       {/* Introduction */}
@@ -105,7 +105,7 @@ const AboutPage = () => {
               boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
             }}
           >
-            <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] mb-2">
+            <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8] mb-2">
               {stat.number}
             </h3>
             <p className="text-gray-600">{stat.label}</p>
@@ -114,7 +114,7 @@ const AboutPage = () => {
       </div>
 
       {/* Our Values */}
-      <h2 className="text-2xl font-semibold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">
+      <h2 className="text-2xl font-semibold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">
         Our Core Values
       </h2>
       <div className="grid grid-cols-3 gap-8 mb-16 phone:grid-cols-1">
@@ -130,9 +130,9 @@ const AboutPage = () => {
               boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)"
             }}
           >
-            <div className="h-1 w-full bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]" />
+            <div className="h-1 w-full bg-gradient-to-r from-[#EE4E94] to-[#924CE8]" />
             <div className="p-6">
-              <div className="text-[#B32AFF] mb-4 transform group-hover:scale-110 transition-transform">
+              <div className="text-[#EE4E94] mb-4 transform group-hover:scale-110 transition-transform">
                 {value.icon}
               </div>
               <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
@@ -172,14 +172,14 @@ const AboutPage = () => {
         animate={{ opacity: 1, y: 0 }}
         className="bg-white rounded-xl shadow-lg p-8 text-center"
       >
-        <h2 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#B32AFF] to-[#4C24B1]">
+        <h2 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">
           Ready to Build Something Amazing?
         </h2>
         <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
           Join us in creating innovative solutions that drive business success.
         </p>
         <a href="mailto:info@innonsh.com">
-          <button className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
+          <button className="bg-gradient-to-r from-[#EE4E94] to-[#924CE8] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">
             Let's Work Together
           </button>
         </a>

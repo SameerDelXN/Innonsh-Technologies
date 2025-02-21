@@ -45,31 +45,31 @@ const Navbar = () => {
       <div className="flex space-x-6 phone:hidden">
         <Link
           href="/"
-          className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+          className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
         >
           Home
         </Link>
         <Link
           href="/solutions"
-          className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+          className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
         >
           Solutions
         </Link>
         <Link
           href="/Industries"
-          className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+          className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
         >
           Industries
         </Link>
         <Link
           href="/about-us"
-          className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+          className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
         >
           About Us
         </Link>
         <Link
           href="/contact-us"
-          className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+          className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
         >
           Contact Us
         </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
       <div className="phone:hidden">
         <a
           href="mailto:info@innonsh.com"
-          className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white transition-all ease-in-out duration-300 border border-none  px-4 py-3 rounded-lg font-medium hover:bg-transparent hover:border-[#8B5CF6] hover:text-[#8B5CF6]"
+          className="bg-gradient-to-r from-[#EE4E94] to-[#924CE8] text-white transition-all ease-in-out duration-300 border border-none  px-4 py-3 rounded-lg font-medium hover:bg-transparent hover:border-[#924CE8] hover:text-[#924CE8]"
         >
           Schedule a Meet
         </a>
@@ -110,61 +110,51 @@ const Navbar = () => {
             {/* Logo */}
             <Link
               href="/"
-              className="flex items-center space-x-2 mb-4"
+              className="flex items-center justify-center space-x-2 mb-4 w-full"
               onClick={() => setMenuOpen(false)}
             >
               <Image
                 src="/logo-SVG.svg"
                 alt="Innonsh Technologies"
-                className="w-12 h-12"
+                className="w-full h-24"
                 width={48}
                 height={48}
               />
-             <div className="flex flex-col items-start gap-1">
-  <span className="text-lg font-bold text-[#011630] flex flex-col items-start leading-5 gap-1">
-    <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]">Innonsh</span>
-    <span>Technologies</span>
-  </span>
-  {/* <span className="text-sm">
-    Innovation Begins with Every 
-    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Ansh</span>, Shaping a Brighter 
-    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#EE4E94] to-[#924CE8]"> Future</span>.
-  </span> */}
-</div>
+            
             </Link>
 
             {/* Navigation Links */}
             <Link
               href="/"
-              className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+              className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
               onClick={() => setMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/solutions"
-              className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+              className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
               onClick={() => setMenuOpen(false)}
             >
               Solutions
             </Link>
             <Link
               href="/Industries"
-              className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+              className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
               onClick={() => setMenuOpen(false)}
             >
               Industries
             </Link>
             <Link
               href="/about-us"
-              className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+              className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
               onClick={() => setMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/contact-us"
-              className="hover:text-[#8B5CF6] transition-all ease-in-out duration-150"
+              className="hover:text-[#EE4E94] transition-all ease-in-out duration-150"
               onClick={() => setMenuOpen(false)}
             >
               Contact Us
@@ -173,7 +163,7 @@ const Navbar = () => {
             {/* Schedule a Meet Button */}
             <a
               href="mailto:info@innonsh.com"
-              className="bg-gradient-to-r from-[#B32AFF] to-[#4C24B1] text-white transition-all ease-in-out duration-300 border border-[#8B5CF6] px-4 py-2 rounded-lg font-medium hover:bg-transparent hover:border-[#8B5CF6] hover:text-[#8B5CF6]"
+              className="bg-gradient-to-r phone:w-full phone:text-center from-[#EE4E94] to-[#924CE8] text-white transition-all ease-in-out duration-300 border-none border-[#924CE8] px-4 py-2 rounded-lg font-medium hover:bg-transparent hover:border-[#924CE8] hover:text-[#924CE8]"
               onClick={() => setMenuOpen(false)}
             >
               Schedule a Meet
