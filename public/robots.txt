@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
-Sitemap: https://www.innonsh.com/api/sitemap
+
+# Host
+Host: https://www.innonsh.com
+
+# Sitemaps
+Sitemap: https://www.innonsh.com/sitemap.xml

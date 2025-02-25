@@ -1,5 +1,6 @@
 |-- .gitignore
 |-- jsconfig.json
+|-- next-sitemap.config.js
 |-- next.config.mjs
 |-- package-lock.json
 |-- package.json
@@ -44,6 +45,8 @@
         |-- Step_Connection_1.png
         |-- Step_Connection_2.png
         |-- What_we_Offer_Bottom_Shape.png
+    |-- sitemap-0.xml
+    |-- sitemap.xml
     |-- vercel.svg
     |-- whiteLogo.png
     |-- window.svg
