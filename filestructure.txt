@@ -51,7 +51,7 @@
 |-- src
     |-- app
         |-- about-us
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
         |-- api
             |-- sitemap
@@ -69,21 +69,21 @@
             |-- What_We_Offer.jsx
             |-- Why_Choose_Us.jsx
         |-- contact-us
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
         |-- globals.css
         |-- Industries
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
         |-- layout.js
         |-- page.js
         |-- privacy-policy
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
         |-- solutions
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
         |-- terms-of-services
-            |-- layout.js
+            |-- layout.jsx
             |-- page.jsx
 |-- tailwind.config.mjs
