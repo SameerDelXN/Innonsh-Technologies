@@ -54,7 +54,8 @@
             |-- layout.js
             |-- page.jsx
         |-- api
-            |-- sitemap.js
+            |-- sitemap
+                |-- route.js
         |-- components
             |-- Blogs.jsx
             |-- ContactUs.jsx
