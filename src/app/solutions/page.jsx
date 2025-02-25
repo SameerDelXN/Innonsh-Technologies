@@ -60,6 +60,7 @@ const SolutionsPage = () => {
   ];
 
   return (
+    <>
     <div className="min-h-screen bg-gradient-to-b from-[#F5F7FA] to-[#E3E9F0] p-10 phone:p-4">
       {/* Header Section */}
       <div className="flex flex-col items-start gap-3 mb-16">
@@ -149,6 +150,7 @@ const SolutionsPage = () => {
         </a>
       </motion.div>
     </div>
+    </>
   );
 };
 

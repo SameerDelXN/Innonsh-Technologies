@@ -1,0 +1,88 @@
+|-- .gitignore
+|-- jsconfig.json
+|-- next.config.mjs
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.mjs
+|-- public
+    |-- assets
+        |-- handshake.png
+        |-- why_choose_us_man.png
+    |-- Blog
+        |-- blog1Img.png
+        |-- blog2Img.png
+        |-- blog3Img.png
+        |-- blog4Img.png
+    |-- favicon-SVG.svg
+    |-- favicon.ico
+    |-- file.svg
+    |-- globe.svg
+    |-- icons
+        |-- aiml.png
+        |-- api.png
+        |-- cloud.png
+        |-- cyber.png
+        |-- Flaticons
+            |-- man.png
+            |-- woman.png
+        |-- software.png
+    |-- logo-2-SVG.svg
+    |-- logo-SVG.svg
+    |-- logo.png
+    |-- logo2.png
+    |-- next.svg
+    |-- Reviews
+        |-- company1.png
+        |-- company2.png
+        |-- company3.png
+    |-- robots.txt
+    |-- Shapes
+        |-- HomeShape1.png
+        |-- HomeShape2.png
+        |-- HomeShape3.png
+        |-- HomeShape4.png
+        |-- Step_Connection_1.png
+        |-- Step_Connection_2.png
+        |-- What_we_Offer_Bottom_Shape.png
+    |-- vercel.svg
+    |-- whiteLogo.png
+    |-- window.svg
+|-- README.md
+|-- src
+    |-- app
+        |-- about-us
+            |-- layout.js
+            |-- page.jsx
+        |-- api
+            |-- sitemap.js
+        |-- components
+            |-- Blogs.jsx
+            |-- ContactUs.jsx
+            |-- Customer.jsx
+            |-- Footer.jsx
+            |-- HeroSection.jsx
+            |-- Navbar.jsx
+            |-- Reviews.jsx
+            |-- Steps.jsx
+            |-- Story.jsx
+            |-- What_We_Offer.jsx
+            |-- Why_Choose_Us.jsx
+        |-- contact-us
+            |-- layout.js
+            |-- page.jsx
+        |-- globals.css
+        |-- Industries
+            |-- layout.js
+            |-- page.jsx
+        |-- layout.js
+        |-- page.js
+        |-- privacy-policy
+            |-- layout.js
+            |-- page.jsx
+        |-- solutions
+            |-- layout.js
+            |-- page.jsx
+        |-- terms-of-services
+            |-- layout.js
+            |-- page.jsx
+|-- tailwind.config.mjs
