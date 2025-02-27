@@ -19,7 +19,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 export const metadata = {
-  title: "Innonsh Technologies | Deliver Excellence with Innovation",
+  title: "Innonsh Technologies | Innonvation Begins with Every Ansh",
   description:
     "Innonsh Technologies provides IT solutions, including AI/ML, Cloud, Cybersecurity, and Software Development. Transform your business with us!",
   keywords:
