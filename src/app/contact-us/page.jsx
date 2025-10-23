@@ -90,7 +90,7 @@ const ContactUs = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Address",
-      content: "208, Nirmal Mall, Ravet Pune 412101",
+      content: "311, One Mall (Reliance Shop), Bhondve Vasti, Aundh-Ravet, BRTS Road, Ravet. 412101",
       link: "https://maps.google.com",
       details: ["Headquarters", "Visit by Appointment"]
     }
